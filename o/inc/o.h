@@ -19,3 +19,5 @@ public:
     virtual ~BinaryFileReader() = default;
     void read(const std::string& filename) override;
 };
+
+//To add new file types, extend FileReader without modifying existing code.
