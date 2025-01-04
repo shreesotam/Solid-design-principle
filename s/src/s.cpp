@@ -1,5 +1,6 @@
 #include "s.h"
 
+
 void Logger::logToFile(const std::string &message)
 {
     std::ofstream logFile("app.log", std::ios::app);
